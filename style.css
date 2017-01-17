@@ -1,8 +1,38 @@
 body {
   font-family: 'helvetica neue', arial, sans-serif;
   font-weight: 400;
+  color: white;
   background-image: url(blackmamba.png);
   background-repeat: repeat;
+}
+
+footer {
+    padding-top: 200px;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #ec1717;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+    color: #000000;
+    text-decoration: none;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #ec1717;
+    background-color: transparent;
 }
 
 .jumbotron {
@@ -13,6 +43,12 @@ body {
     color: black;
     background-color: white;
     border-color: white;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+  color: #fff;
+  background-color: #ec1717;
+  border-color: #000000;
 }
 
 .btn-primary:hover {
@@ -26,28 +62,7 @@ a:focus, a:hover {
     text-decoration: underline;
 }
 
-a {
-    color: #FFFFFF;
-    text-decoration: underline;
-}
-
-#wrapper {
-  width: 960px;
-  margin: 20px auto 20px auto;
-}
-
-h1 {
-  color: red;
-}
-
-#summary {
-  color: magenta;
-}
-
-#experience {
-  color: gold;
-}
-
-.skills-and-hobbies {
-  color: yellow;
+#list-group {
+  color: black;
+  font-size: 15pt;
 }
