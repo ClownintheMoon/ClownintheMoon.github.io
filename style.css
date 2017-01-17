@@ -1,10 +1,53 @@
 body {
   font-family: 'helvetica neue', arial, sans-serif;
   font-weight: 400;
-  background-image: url(linedpaper.png);
+  background-image: url(blackmamba.png);
   background-repeat: repeat;
 }
+
+.jumbotron {
+  background-image: url(blackmamba.png);
+}
+
+.btn-primary {
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #000000;
+    border-color: #FFFFFF;
+}
+
+a:focus, a:hover {
+    color: #fbe73b;
+    text-decoration: underline;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
 #wrapper {
   width: 960px;
   margin: 20px auto 20px auto;
+}
+
+h1 {
+  color: red;
+}
+
+#summary {
+  color: magenta;
+}
+
+#experience {
+  color: gold;
+}
+
+.skills-and-hobbies {
+  color: yellow;
 }
